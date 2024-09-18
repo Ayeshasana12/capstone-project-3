@@ -21,35 +21,7 @@
   <div class="bg-light h-100">
     <!--header-section-1  -->
 
-    <!-- <div
-        class="container position-relative d-flex justify-content-between z-1 py-3"
-      >
-        <div class="nav animate-underline">
-          <span class="text-secondary-emphasis fs-xs me-1"
-            >Contact us
-            <span class="d-none d-sm-inline text-black">24/7</span></span
-          >
-          <a
-            class="nav-link animate-target text-black fs-xs fw-semibold p-0"
-            href="tel:+15053753082"
-            >+1&nbsp;50&nbsp;537&nbsp;53&nbsp;082</a
-          >
-        </div>
-        <a
-          class="text-black fs-xs text-decoration-none d-none d-md-inline"
-          href="#!"
-          >🔥 The Biggest Sale Ever 50% Off</a
-        >
-        <ul class="nav gap-4">
-          <li class="animate-underline">
-            <a class="nav-link text-black fs-xs p-0" href="#!">Wishlist</a>
-          </li>
-          <li class="animate-underline">
-            <a class="nav-link text-black fs-xs p-0" href="#!">Account</a>
-          </li>
-        </ul>
-      </div> -->
-
+  
     <!--header-section-1-end  -->
 
     <!-- header-2 -->
@@ -295,7 +267,7 @@
 
 
     <!-- small -->
-    <div class="container   fixed-top top-0 d-lg-none d-md-block">
+    <div class="container d-lg-none d-md-block">
 
       <div class="bg-white rounded-pill px-2 d-flex justify-content-between align-items-center ">
         <a class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
@@ -462,10 +434,38 @@
         <div class="d-flex">
           <iconify-icon icon="solar:sun-outline" class="fs-4 border-1 ms-2 p-2 rounded-pill bg-light" noobserver>
           </iconify-icon>
-          <iconify-icon type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-            aria-controls="offcanvasRight" icon="humbleicons:cart" class=" fs-4 border-1 ms-2 p-2 rounded-pill bg-light"
-            noobserver>
-          </iconify-icon>
+
+          <div class="m-1 position-relative">
+              <!-- Cart Icon -->
+              <iconify-icon icon="fluent:cart-20-regular" noobserver class="fs-3" type="button"
+                  data-bs-toggle="offcanvas" data-bs-target="#cartCanvas"></iconify-icon>
+
+              <!-- Cart Count Badge -->
+              <div class="bg-danger text-center rounded-circle position-absolute d-flex align-items-center justify-content-center"
+                  style="top: 0px; right: 0; width: 15px; height: 15px;">
+                  <span id="cart-count" class="text-white" style="font-size: 10px;">0</span>
+              </div>
+          </div><div class="m-1 position-relative">
+            <!-- Cart Icon -->
+            <iconify-icon icon="fluent:cart-20-regular" noobserver class="fs-3" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#cartCanvas"></iconify-icon>
+
+            <!-- Cart Count Badge -->
+            <div class="bg-danger text-center rounded-circle position-absolute d-flex align-items-center justify-content-center"
+                style="top: 0px; right: 0; width: 15px; height: 15px;">
+                <span id="cart-count" class="text-white" style="font-size: 10px;">0</span>
+            </div>
+        </div><div class="m-1 position-relative">
+          <!-- Cart Icon -->
+          <iconify-icon icon="fluent:cart-20-regular" noobserver class="fs-3" type="button"
+              data-bs-toggle="offcanvas" data-bs-target="#cartCanvas"></iconify-icon>
+
+          <!-- Cart Count Badge -->
+          <div class="bg-danger text-center rounded-circle position-absolute d-flex align-items-center justify-content-center"
+              style="top: 0px; right: 0; width: 15px; height: 15px;">
+              <span id="cart-count" class="text-white" style="font-size: 10px;">0</span>
+          </div>
+      </div>
           <iconify-icon icon="carbon:search" class="fs-4 border-1 ms-2 p-2 rounded-pill bg-light" noobserver>
           </iconify-icon>
         </div>
@@ -482,7 +482,7 @@
     <div style="padding-top: 17%;" class="container">
       <div class="row">
         <div class="col-md-3 col-xs-12 d-none d-sm-block">
-          <img class="img-fluid mt-5 py-5 px-4 rounded-circle bg-white" src="/imges/section-1-img-2.png" alt="">
+          <img class="img-fluid mt-5 py-5 px-4 rounded-circle bg-white" src="/imges/main-section-img-1.png" alt="logo">
         
         </div>
         <div class="col-md-6 col-xs-12">
@@ -506,59 +506,6 @@
 
 
   <!-- Main-section-1 -->
-
- <!-- <div class="container d-flex my-5">
-    <div class="card-group row d-flex flex-wrap">
-     
-      <div class="card border-0 col-6 col-md-4 col-lg-2">
-        <img src="/imges/section-2-img-1.png" class="ms-4 w-75 h-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-        </div>
-      </div>
-  
-      <div class="card border-0 col-6 col-md-4 col-lg-2">
-        <img src="/imges/section-2-img-2.png" class="ms-4 w-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    
-      <div class="card border-0 col-md-4 col-lg-2 d-none d-sm-none d-md-block text-center">
-        <img src="/imges/section-2-img-3.png" class="ms-4 w-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
- 
-      <div class="card border-0  col-md-4 col-lg-2 d-none d-sm-none d-md-block text-center">
-        <img src="/imges/section-2-img-4.png" class="ms-4 w-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    
-      <div class="card border-0 col-md-4 col-lg-2 d-none d-sm-none d-md-block text-center">
-        <img src="/imges/section-2-img-5.png" class="ms-4 w-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-        </div>
-      </div>
-    
-      <div class="card border-0 col-md-4 col-lg-2 d-none d-sm-block">
-        <img src="/imges/section-2-img-6.png" class="ms-4 w-75 rounded-circle bg-light card-img-top" alt="logo" />
-        <div class="card-body">
-          <h5 class="card-title text-center">Bedroom</h5>
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
-  </div>  -->
-
-  <!-- rong oper -->
 
  <div class="container  my-5">
     <div class="row">
@@ -690,6 +637,8 @@
     </div>
 </div>
   <!-- main-section-2 -->
+
+
   <!-- Section-4 -->
   <div class="container">
     <h2 class="pb-3 mt-5">Interior design and inspiration</h2>
@@ -742,6 +691,7 @@
     </div>
   </div>
   <!-- Section-4-end -->
+   
 
   <!-- Section-5 -->
   <div class="container text-center my-5">
